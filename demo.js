@@ -5,14 +5,14 @@ var  transporter= nodemailer.createTransport({
     secure:false,
     requireTLS:true,
     auth:{
-        user:"alamlibrary01@gmail.com",
-        pass:"xdxiukkzcnxunmdg "
+        user:"Enter Your Email",
+        pass:"password of your authentication "
     }
 });
 
 var mailOption={
-    from:"alamlibrary01@gmail.com",
-    to:"alamlibrary01@gmail.com",
+    from:"Enter Your Email",
+    to:"Enter Your Email",
     subject:"Hello World",
     text:"Hello Haseeb"
 }
